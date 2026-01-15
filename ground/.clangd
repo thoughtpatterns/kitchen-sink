@@ -1,0 +1,12 @@
+CompileFlags:
+  Add:
+    - -xobjective-c
+    - -fobjc-arc
+    - -std=c2x
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Werror
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
